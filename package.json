@@ -1,0 +1,20 @@
+{
+  "name": "@igloohr/hitomezashi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hitomezashi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksimenic/hitomezashi.git"
+  },
+  "keywords": ["hitomezashi", "svg", "background"],
+  "author": "Kristijan Šimenić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksimenic/hitomezashi/issues"
+  },
+  "homepage": "https://github.com/ksimenic/hitomezashi#readme"
+}
