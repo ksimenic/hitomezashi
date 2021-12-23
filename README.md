@@ -8,7 +8,7 @@ Hitomezashi is a simple javascript library for generating beautiful "stitch patt
 #### Basic usage
 
 ```html
-<script type="text/javascript" src="node_modules/@igloohr/hitomezashi/hitomezashi.js"></script>
+<script type="text/javascript" src="node_modules/@igloohr/hitomezashi/dist/hitomezashi.min.js"></script>
 <script type="text/javascript">
 	/*
 	new HitomezashiStitch(
@@ -31,7 +31,7 @@ Hitomezashi is a simple javascript library for generating beautiful "stitch patt
 ```
 #### Advanced usage
 ```html
-<script type="text/javascript" src="node_modules/@igloohr/hitomezashi/hitomezashi.js"></script>
+<script type="text/javascript" src="node_modules/@igloohr/hitomezashi/dist/hitomezashi.min.js"></script>
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(event) {
 		// Initial render

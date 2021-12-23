@@ -1,20 +1,27 @@
 {
   "name": "@igloohr/hitomezashi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple javascript class for generating hitomezashi stitch pattern svg backgrounds",
-  "main": "hitomezashi.js",
+  "main": "src/hitomezashi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compress": "uglifyjs src/hitomezashi.js --compress --mangle --warn --output dist/hitomezashi.min.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksimenic/hitomezashi.git"
   },
-  "keywords": ["hitomezashi", "svg", "background"],
+  "keywords": [
+    "hitomezashi",
+    "svg",
+    "background"
+  ],
   "author": "Kristijan Šimenić",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ksimenic/hitomezashi/issues"
   },
-  "homepage": "https://github.com/ksimenic/hitomezashi#readme"
+  "homepage": "https://github.com/ksimenic/hitomezashi#readme",
+  "devDependencies": {
+    "uglify-js": "^3.14.5"
+  }
 }
